@@ -72,6 +72,7 @@
     <Content Include="App_Data\PracticeDB_log.ldf">
       <DependentUpon>PracticeDB.mdf</DependentUpon>
     </Content>
+    <Content Include="Confirm.aspx" />
     <Content Include="default.aspx" />
     <Content Include="GymBooking.aspx" />
     <Content Include="ModuleBooking.aspx" />
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="AppointmentBooking.aspx.designer.cs">
       <DependentUpon>AppointmentBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -148,7 +156,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>62351</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44303/</IISUrl>
+          <IISUrl>http://localhost:44303/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
