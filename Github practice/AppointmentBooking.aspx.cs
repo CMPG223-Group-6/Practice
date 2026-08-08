@@ -86,7 +86,7 @@ namespace Github_practice
 
                 cnn.Open();
 
-                string sql = "INSERT INTO Users ([Last Name], [First Name], [Email], [Student Num]) VALUES (@LastName, @FirstName, @Email, @StudentNum)";
+                string sql = "INSERT INTO Users (LastName, FirstName, Email, StudentNum) VALUES (@LastName, @FirstName, @Email, @StudentNum)";
 
                 cmd = new SqlCommand(sql, cnn);
 
