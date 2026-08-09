@@ -41,6 +41,14 @@
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
                     <td class="auto-style2">
+                        <asp:Label ID="lblID" runat="server" Text="Enter your ID:"></asp:Label>
+                        <asp:TextBox ID="txtID" runat="server"></asp:TextBox>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style2">
                         <asp:Label ID="lblName" runat="server" Text="Enter your name:"></asp:Label>
 &nbsp;<asp:TextBox ID="txtName" runat="server" Height="16px"></asp:TextBox>
                     </td>
