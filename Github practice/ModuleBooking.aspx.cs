@@ -21,7 +21,7 @@ namespace Github_practice
 
         protected void btnBook_Click(object sender, EventArgs e)
         {
-            int Id = int.Parse(txtID.Text);
+            
             string name = txtName.Text;
             string surname = txtSurname.Text;
             string studentNumber = txtStudentNo.Text;
@@ -32,12 +32,12 @@ namespace Github_practice
 
             using (conn = new SqlConnection(conString))
             {
-                string sql = "INSERT INTO Users(Id,LastName,FirstName,Email,StudentNum) " +
-                             "VALUES(@Id,@LastName,@FirstName,@Email,@StudentNum)";
+                string sql = "INSERT INTO Users(LastName,FirstName,Email,StudentNum) " +
+                             "VALUES(@LastName,@FirstName,@Email,@StudentNum)";
 
                 cmd = new SqlCommand(sql, conn);
 
-                cmd.Parameters.AddWithValue("@Id", Id);
+                
                 cmd.Parameters.AddWithValue("@LastName", surname);
                 cmd.Parameters.AddWithValue("@FirstName", name);
                 cmd.Parameters.AddWithValue("@StudentNum", studentNumber);
@@ -50,7 +50,7 @@ namespace Github_practice
 
             HttpCookie bookingCookie = new HttpCookie("BookingDetails");
 
-            bookingCookie["Id"] = Id.ToString();
+            
             bookingCookie["FirstName"] = name;
             bookingCookie["LastName"] = surname;
             bookingCookie["StudentNum"] = studentNumber;
