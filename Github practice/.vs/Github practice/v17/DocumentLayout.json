@@ -1,12 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\siveg\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\hansl\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{033AAF13-E93C-4AF3-8DB5-2118C0B7376C}|Github practice.csproj|c:\\users\\hansl\\onedrive\\documents\\github\\practice\\github practice\\modulebooking.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033AAF13-E93C-4AF3-8DB5-2118C0B7376C}|Github practice.csproj|solutionrelative:modulebooking.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033AAF13-E93C-4AF3-8DB5-2118C0B7376C}|Github practice.csproj|C:\\Users\\hansl\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\modulebooking.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{033AAF13-E93C-4AF3-8DB5-2118C0B7376C}|Github practice.csproj|solutionrelative:modulebooking.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModuleBooking.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hansl\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\ModuleBooking.aspx.cs",
+              "RelativeDocumentMoniker": "ModuleBooking.aspx.cs",
+              "ToolTip": "C:\\Users\\hansl\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\ModuleBooking.aspx.cs",
+              "RelativeToolTip": "ModuleBooking.aspx.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T21:12:10.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModuleBooking.aspx",
+              "DocumentMoniker": "C:\\Users\\hansl\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\ModuleBooking.aspx",
+              "RelativeDocumentMoniker": "ModuleBooking.aspx",
+              "ToolTip": "C:\\Users\\hansl\\OneDrive\\Documents\\GitHub\\Practice\\Github practice\\ModuleBooking.aspx",
+              "RelativeToolTip": "ModuleBooking.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-08T19:43:28.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
