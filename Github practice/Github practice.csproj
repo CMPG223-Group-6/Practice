@@ -74,7 +74,6 @@
     </Content>
     <Content Include="default.aspx" />
     <Content Include="GymBooking.aspx" />
-    <Content Include="Menu.aspx" />
     <Content Include="ModuleBooking.aspx" />
     <Content Include="OrderPizza.aspx" />
     <Content Include="VolleyballBooking.aspx" />
@@ -101,13 +100,6 @@
     </Compile>
     <Compile Include="GymBooking.aspx.designer.cs">
       <DependentUpon>GymBooking.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Menu.aspx.cs">
-      <DependentUpon>Menu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Menu.aspx.designer.cs">
-      <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="ModuleBooking.aspx.cs">
       <DependentUpon>ModuleBooking.aspx</DependentUpon>
@@ -156,7 +148,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>62351</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:44303/</IISUrl>
+          <IISUrl>https://localhost:44303/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
