@@ -35,7 +35,7 @@ namespace Github_practice
                     using(SqlConnection conn = new SqlConnection(connStr))
                     {
                         conn.Open();
-                        string sql = "INSERT INTO Users VALUES (@name, @surname, @email, @studentNo)";
+                        string sql = "INSERT INTO Users VALUES (@surname,@name, @email, @studentNo)";
 
                         using (SqlCommand cmd = new SqlCommand(sql, conn))
                         {

@@ -110,13 +110,13 @@
                         <br />
                         <br />
                         <br />
-                        <asp:Label ID="lblInfoTwo" runat="server" Font-Bold="True" Font-Size="Large" Text=" =====   Thank for Booking ====="></asp:Label>
+                        <asp:Label ID="lblInfoTwo" runat="server" Font-Bold="True" Font-Size="Large" Text=" =====   Thank you for Booking ====="></asp:Label>
                         <br />
                     </td>
                     <td class="auto-style9">
                         <br />
                         <br />
-                        <asp:Button ID="btnMenu" runat="server" OnClick="btnMenu_Click" Text="Back Main page" Width="216px" />
+                        <asp:Button ID="btnMenu" runat="server" OnClick="btnMenu_Click" Text="Back Menu" Width="216px" />
                         <br />
                     </td>
                 </tr>

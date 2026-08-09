@@ -23,7 +23,7 @@ namespace Github_practice
 
         protected void btnMenu_Click(object sender, EventArgs e)
         {
-            Response.Redirect("default.aspx");
+            Response.Redirect("Menu.aspx");
         }
     }
 }
