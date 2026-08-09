@@ -76,6 +76,7 @@
     <Content Include="GymBooking.aspx" />
     <Content Include="ModuleBooking.aspx" />
     <Content Include="OrderPizza.aspx" />
+    <Content Include="Pizzaform.aspx" />
     <Content Include="VolleyballBooking.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="OrderPizza.aspx.designer.cs">
       <DependentUpon>OrderPizza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pizzaform.aspx.cs">
+      <DependentUpon>Pizzaform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pizzaform.aspx.designer.cs">
+      <DependentUpon>Pizzaform.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VolleyballBooking.aspx.cs">
